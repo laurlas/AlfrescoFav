@@ -1,0 +1,13 @@
+.fa{
+  font: normal normal normal 24px/1 FontAwesome;
+  padding: 10px;
+}
+.fa-file:before {
+  content: "\f15b";
+}
+.fa-folder:before {
+  content: "\f07b";
+}
+.mat-card-content{
+  font-size: 24px;
+}

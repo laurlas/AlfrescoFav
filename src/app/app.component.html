@@ -1,0 +1,12 @@
+<div style="text-align:center">
+  <h1>
+    Favourites
+  </h1>
+</div>
+<mat-card *ngFor="let favourite of favourites">
+  <mat-card-content>
+    <i class="fa fa-{{favourite.type}}"></i>
+    <span>{{favourite.name}}</span>
+  </mat-card-content>
+</mat-card>
+<router-outlet></router-outlet>
